@@ -14,7 +14,7 @@ if (input==0 ||input==1)
 }
 else 
 {
-for (int i = 2; i ==input/2; i++)
+for (int i = 2; i <=input/2; i++)
 {
 	int result=input%i;
 	if(result==0)
